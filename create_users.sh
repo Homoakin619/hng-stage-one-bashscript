@@ -3,7 +3,7 @@
 # Define input file and log file
 INPUT_FILE=$1
 LOG_FILE="/var/log/user_management.log"
-PASSWORD_FILE="/var/secure/user_passwords.txt"
+PASSWORD_FILE="/var/secure/user_passwords.csv"
 
 # Ensure the /var/secure directory exists and set permissions
 mkdir -p /var/secure
